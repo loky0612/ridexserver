@@ -6,7 +6,7 @@ const { test, loginUser, addUser, changeStatus } = require('../controllers/authC
 router.use(
     cors({
         credentials : true,
-        origin : 'http://localhost:3000'
+        origin : 'https://ridexcarrentals.vercel.app'
     })
 );
 
