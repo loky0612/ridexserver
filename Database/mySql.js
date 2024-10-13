@@ -1,10 +1,10 @@
 const db = require('mysql2');
 
 const connection = db.createConnection({
-    host : 'sde-db.cxeu0ksiobkr.ap-south-1.rds.amazonaws.com',
+    host : 'localhost',
     port: '3306',
     user : 'root',
-    password : 'adminLokeshM0612',
+    password : '1234',
     database : 'car'
 })
 
